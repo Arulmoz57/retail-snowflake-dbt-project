@@ -1,0 +1,10 @@
+{"event_type":"click","user_id":1,"product_id":101,"timestamp":"2024-01-10T10:00:00"}
+{"event_type":"view","user_id":2,"product_id":102,"timestamp":"2024-01-11T11:30:00"}
+{"event_type":"click","user_id":3,"product_id":103,"timestamp":"2024-01-12T12:15:00"}
+{"event_type":"purchase","user_id":1,"product_id":104,"timestamp":"2024-01-13T14:45:00"}
+{"event_type":"view","user_id":4,"product_id":105,"timestamp":"2024-01-14T16:10:00"}
+{"event_type":"click","user_id":5,"product_id":106,"timestamp":"2024-01-15T18:20:00"}
+{"event_type":"purchase","user_id":6,"product_id":107,"timestamp":"2024-01-16T09:05:00"}
+{"event_type":"view","user_id":7,"product_id":108,"timestamp":"2024-01-17T13:40:00"}
+{"event_type":"click","user_id":8,"product_id":109,"timestamp":"2024-01-18T15:55:00"}
+{"event_type":"purchase","user_id":9,"product_id":110,"timestamp":"2024-01-19T17:30:00"}
