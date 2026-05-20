@@ -57,6 +57,4 @@ retail-snowflake-dbt-project/
 │   ├── snowflake_tables.png
 │   └── streams_tasks.png
 │
-├── requirements.txt
-├── .gitignore
 └── README.md
