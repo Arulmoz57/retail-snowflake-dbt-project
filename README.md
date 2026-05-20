@@ -1,30 +1,62 @@
-# Retail Sales Data Pipeline using Snowflake & dbt
+# 🏬 Retail Sales Data Pipeline using Snowflake & dbt
 
-## Project Overview
-Built an end-to-end retail sales analytics pipeline using Snowflake and dbt.
+## 📌 Project Overview
 
-## Features
-- Data ingestion using Snowflake stages
-- Incremental loading using Streams & Tasks
-- SCD Type 2 implementation
-- dbt staging and marts models
-- Data quality testing
-- Lineage graph generation
-- JSON data processing
+This project demonstrates an end-to-end modern Data Engineering pipeline built using Snowflake and dbt for retail sales analytics.
 
-## Tech Stack
+The pipeline ingests CSV and JSON datasets into Snowflake, performs transformations using dbt staging and marts models, implements incremental processing using Streams & Tasks, and generates analytics-ready fact and dimension tables.
+
+---
+## System Architecture
+
+![Architecture](system_architecture.png)
+
+---
+
+# 🚀 Tech Stack
+
 - Snowflake
-- dbt
+- dbt (Data Build Tool)
 - SQL
-- Python
+- CSV / JSON
+- Git & GitHub
 
-## Architecture
-End-to-end ELT pipeline with modular transformations.
+---
 
-## Screenshots
+# 📂 Project Structure
 
-### dbt Lineage Graph
-![Lineage](screenshots/dbt_lineage.png)
-
-### Snowflake Tables
-![Snowflake](screenshots/snowflake_tables.png)
+```bash
+retail-snowflake-dbt-project/
+│
+├── datasets/
+│   ├── customers.csv
+│   ├── orders.csv
+│   ├── products.csv
+│   └── events.json
+│
+├── models/
+│   ├── staging/
+│   │   ├── stg_customers.sql
+│   │   ├── stg_orders.sql
+│   │   └── stg_products.sql
+│   │
+│   └── marts/
+│       └── fact_sales.sql
+│
+├── sql/
+│   ├── create_tables.sql
+│   ├── streams_tasks.sql
+│   ├── scd_type2.sql
+│   └── analytics_queries.sql
+│
+├── screenshots/
+│   ├── architecture.png
+│   ├── dbt_lineage.png
+│   ├── dbt_run.png
+│   ├── dbt_test.png
+│   ├── snowflake_tables.png
+│   └── streams_tasks.png
+│
+├── requirements.txt
+├── .gitignore
+└── README.md
